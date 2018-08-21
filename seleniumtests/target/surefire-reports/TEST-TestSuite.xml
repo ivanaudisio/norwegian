@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.155" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ivan.audisio/Desktop/norwegian/seleniumtests"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ivan.audisio/Desktop/norwegian/seleniumtests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/fs/w9lth3md6nv4zwl51mb7sfwm0000gq/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ivan.audisio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ivan.audisio"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="ivan.audisio"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="setUp" classname="new_tests" time="0.901">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;ECS0476.local&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ECS0476.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at new_tests.setUp(new_tests.java:18)
+Caused by: java.net.UnknownHostException: hub: nodename nor servname provided, or not known
+	at new_tests.setUp(new_tests.java:18)
+</failure>
+  </testcase>
+  <testcase name="googleTest" classname="new_tests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="new_tests" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

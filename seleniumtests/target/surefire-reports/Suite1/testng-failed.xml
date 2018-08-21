@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" verbose="0">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="new_tests">
+        <methods>
+          <include name="setUp"/>
+          <include name="googleTest"/>
+        </methods>
+      </class> <!-- new_tests -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

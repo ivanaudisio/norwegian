@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.155 sec <<< FAILURE! - in TestSuite
+setUp(new_tests)  Time elapsed: 0.901 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'ECS0476.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at new_tests.setUp(new_tests.java:18)
+Caused by: java.net.UnknownHostException: hub: nodename nor servname provided, or not known
+	at new_tests.setUp(new_tests.java:18)
+
