@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class new_tests {
 
@@ -22,9 +23,7 @@ public class new_tests {
     public void googleTest() throws InterruptedException {
         driver.get("https://login.microsoftonline.com");
         System.out.println(driver.getTitle());
-
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
+        
     }
 
     @AfterTest
