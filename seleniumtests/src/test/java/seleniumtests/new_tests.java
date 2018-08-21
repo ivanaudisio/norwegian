@@ -20,8 +20,10 @@ public class new_tests {
 
     @Test
     public void googleTest() throws InterruptedException {
-        driver.get("https://www.google.com");
+        driver.get("https://login.microsoftonline.com");
         System.out.println(driver.getTitle());
+
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
 
@@ -31,4 +33,3 @@ public class new_tests {
     }
 
 }
-
